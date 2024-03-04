@@ -1,11 +1,23 @@
-.hero-image img
+.light-mode 
+{
+    background-color: #fff;
+    color: #333;
+}
+
+.dark-mode 
+{
+    background-color: #000000;
+    color: #fff;
+}
+
+.hero-image img 
 {
   width: 100%;
 }
 
 .projects-page 
 {
-  padding: 50px;
+  padding: 20px; /* Adjust padding for smaller screens */
   max-width: 900px;
   margin: 0 auto;
 }
@@ -13,7 +25,7 @@
 .page-title 
 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px; /* Reduce margin for smaller screens */
 }
 
 .project-list 
@@ -21,11 +33,10 @@
   padding: 0;
 }
 
-
 .project-list .project 
 {
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 16px; /* Decrease font size for smaller screens */
 }
 
 .project-list .project p 
@@ -46,71 +57,72 @@
 
 .project-link:hover 
 {
-  text-decoration: underline; /* Underline link text on hover */
+  text-decoration: underline;
 }
 
 .project-section 
 {
-  margin-top: 50px;
-  padding: 20px;
+  margin-top: 30px; /* Reduce margin for smaller screens */
+  padding: 10px; /* Adjust padding for smaller screens */
   text-align: center;
-  max-width: 900px;
+  max-width: 900px; /* Adjust maximum width for smaller screens */
   margin: auto;
 }
 
 .project-section h2 
 {
-  margin-bottom: 20px;
+  margin-bottom: 15px; /* Reduce margin for smaller screens */
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em; /* Decrease font size for smaller screens */
 }
 
 .project-section h4 
 {
-  margin-bottom: 15px;
+  margin-bottom: 10px; /* Reduce margin for smaller screens */
   text-align: left;
 }
 
-.project-section img
+.project-section img 
 {
-  width: 800px;
+  width: 100%; /* Make images responsive */
+  max-width: 800px;
 }
 
 .project-section p 
 {
-  margin: 20px 0px 20px 0px;
+  margin: 10px 0; /* Adjust margin for smaller screens */
 }
 
 .project-section li 
 {
   text-align: left;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 100%; /* Adjust maximum width for smaller screens */
 }
 
-.project-section ul img
+.project-section ul img 
 {
-  width: 200px;
-  padding: 10px 10px 10px 10px;
-  top: 0%;
+  width: 100%; /* Make images responsive */
+  padding: 10px 0; /* Adjust padding for smaller screens */
+  max-width: 200px;
 }
 
 #scrollToTopButton 
 {
-  display: none; /* Hidden by default */
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 1000; /* Ensure it's above other content */
+  z-index: 1000;
   padding: 10px 15px;
-  background-color: #007bff; /* Example color */
+  background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
 }
 
 #scrollToTopButton:hover 
 {
-  background-color: #0056b3; /* Darker shade for hover state */
+  background-color: #0056b3;
 }

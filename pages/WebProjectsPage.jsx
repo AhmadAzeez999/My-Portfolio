@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../src/Header';
 import Footer from '../src/Footer';
@@ -35,9 +35,16 @@ function ProjectsPage()
     return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
 
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleMode = () => 
+  {
+    setIsDarkMode((prevMode) => !prevMode);
+  };
+
   return (
-    <div>
-      <Header />
+    <div className={isDarkMode ? 'dark-mode' : 'light-mode'}>
+      <Header isDarkMode={isDarkMode} toggleMode={toggleMode} />
       <div className="hero-image">
         <h2 className="page-title">My Website Projects</h2>
       </div>
@@ -73,6 +80,7 @@ function ProjectsPage()
       <div id="indie-game-studio" className="project-section">
         <h2>Indie Game Studio Website</h2>
         <img src="./images/Upraid.PNG" alt="Project 1"/>
+        <br />
         <a href='https://ahmadazeez999.github.io/Website-for-Indie-Game-Company/' target='_blank'>Website link</a>
         <p>
           This was the first website I ever worked on. 
@@ -95,6 +103,8 @@ function ProjectsPage()
       <div id="cosmetic-website" className="project-section">
         <h2>Cosmetic Website with PHP</h2>
         <img src="./images/Cosmetic.PNG" alt="Project 2"/>
+        <br />
+        <a href='https://youtu.be/qGvqZ8RU-hU' target='_blank'>Website showcase video link</a>
         <p>
         Developed 'Cosmetico,' an e-commerce platform for a fictional cosmetics retailer, 
         featuring secure login/signup, shopping cart, and dynamic forms. Built with PHP, jQuery, and MySQL.
@@ -163,6 +173,8 @@ function ProjectsPage()
       <div id="techinez" className="project-section">
         <h2>TechinEZ</h2>
         <img src="./images/TechinEZ.PNG" alt="Project 3"/>
+        <br />
+        <a href='https://youtu.be/xgyhx52fhIE' target='_blank'>Website showcase video link</a>
         <p>
         TechinEZ is a website designed to simplify the process of finding and comparing 
         tech products across various e-commerce websites. The website employs web scraping 
