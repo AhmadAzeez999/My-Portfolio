@@ -113,18 +113,18 @@ function ProjectsPage()
           <ul>
             <li>User Registration and Authentication.
               <br/>
-              <img src="../images/cosmetico images/0.jpg"></img>
-              <img src="../images/cosmetico images/1.jpg"></img>
-              <img src="../images/cosmetico images/2.jpg"></img>
+              <img src="./images/cosmetico images/0.jpg"></img>
+              <img src="./images/cosmetico images/1.jpg"></img>
+              <img src="./images/cosmetico images/2.jpg"></img>
             </li>
             <li>Forms and Data Input.
               <br/>
-              <img src="../images/cosmetico images/3.jpg"></img>
+              <img src="./images/cosmetico images/3.jpg"></img>
             </li>
             <li>Error Handling
               <br/>
-              <img src="../images/cosmetico images/4.jpg"></img>
-              <img src="../images/cosmetico images/5.jpg"></img>
+              <img src="./images/cosmetico images/4.jpg"></img>
+              <img src="./images/cosmetico images/5.jpg"></img>
             </li>
             <li>Database Management</li>
             <li>Session Management</li>
@@ -132,15 +132,15 @@ function ProjectsPage()
             <li>Dynamic product listings</li>
             <li>Seamless checkout process
               <br/>
-              <img src="../images/cosmetico images/6.jpg"></img>
-              <img src="../images/cosmetico images/7.jpg"></img>
-              <img src="../images/cosmetico images/8.jpg"></img>
-              <img src="../images/cosmetico images/9.jpg"></img>
+              <img src="./images/cosmetico images/6.jpg"></img>
+              <img src="./images/cosmetico images/7.jpg"></img>
+              <img src="./images/cosmetico images/8.jpg"></img>
+              <img src="./images/cosmetico images/9.jpg"></img>
             </li>
             <li>Mobile responsive
               <br/>
-              <img src="../images/cosmetico images/10.jpg"></img>
-              <img src="../images/cosmetico images/11.jpg"></img>
+              <img src="./images/cosmetico images/10.jpg"></img>
+              <img src="./images/cosmetico images/11.jpg"></img>
             </li>
           </ul>
         </p>
