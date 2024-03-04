@@ -37,13 +37,13 @@ function App()
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="./images/ml showcase.png"
+              src="./images/Cosmetic.PNG"
               alt="Second slide"
             />
             <Carousel.Caption>
-              <h3>Something cool I made</h3>
-              <p>I like how this turned out. For now. I can see myself 
-                thinking differently in the future.
+              <h3>Cosmetic Website</h3>
+              <p>Developed 'Cosmetico,' an e-commerce platform for a fictional cosmetics retailer, 
+                featuring secure login/signup, shopping cart, and dynamic forms. Built with PHP, jQuery, and MySQL.
               </p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -58,11 +58,6 @@ function App()
         <br />
         As a software developer, I specialize in crafting Android applications using Android Studio and Java, as well as 
         creating Windows Forms applications with C#. I also have proficiency in game development using Unity and C#.
-        <br />
-        <br />
-        My goal is to contribute my expertise to an organization where I can continue to learn and grow while making 
-        meaningful contributions to its success. I am excited about the opportunity to leverage my skills and resources 
-        to drive positive outcomes for the team and the business. 
         <br />
         <br />
         I'm fascinated by the potential of machine learning algorithms to make predictions and learn from data, 
