@@ -1,6 +1,7 @@
 import React from 'react';
 
-function PortfolioItem({ title, description, imageUrl }) {
+function PortfolioItem({ title, description, imageUrl }) 
+{
   return (
     <div className="portfolio-item">
       <h3>{title}</h3>
