@@ -60,10 +60,6 @@ function App()
         creating Windows Forms applications with C#. I also have proficiency in game development using Unity and C#.
         <br />
         <br />
-        I'm fascinated by the potential of machine learning algorithms to make predictions and learn from data, 
-        and I'm excited about the applications of machine learning across various industries.
-        <br />
-        <br />
         <a href="https://github.com/AhmadAzeez999" target="_blank">
         <img src="./images/logos/github-logo.png" alt="Github logo" height="50px"></img>
           My Github
@@ -97,7 +93,7 @@ function App()
           linkTo="websiteProjects" />
           <PortfolioButton imageSrc="./images/mobile app portfolio banner.png" alt="Project 2"
           additionalImage1Src="./images/mobile app showcase.png"
-          linkTo="" />
+          linkTo="mobileAppProjects" />
           <PortfolioButton imageSrc="./images/games portfolio banner.png" alt="Project 2"
           additionalImage1Src="./images/games showcase.png"
           linkTo="" />
