@@ -85,21 +85,21 @@ function App()
       </Section>
       <Section title="Projects">
         <div className="portfolio-buttons-container">
-          <PortfolioButton imageSrc="./images/ml portfolio banner.png" alt="Project 1" 
+          {/* <PortfolioButton imageSrc="./images/ml portfolio banner.png" alt="Project 1" 
           additionalImage1Src="./images/ml showcase.png"
-          linkTo="" />
+          linkTo="" /> */}
           <PortfolioButton imageSrc="./images/web.png" alt="Project 1" 
           additionalImage1Src="./images/website showcase 1.png"
           linkTo="websiteProjects" />
           <PortfolioButton imageSrc="./images/mobile app portfolio banner.png" alt="Project 2"
           additionalImage1Src="./images/mobile app showcase.png"
           linkTo="mobileAppProjects" />
-          <PortfolioButton imageSrc="./images/games portfolio banner.png" alt="Project 2"
+          {/* <PortfolioButton imageSrc="./images/games portfolio banner.png" alt="Project 2"
           additionalImage1Src="./images/games showcase.png"
           linkTo="" />
           <PortfolioButton imageSrc="./images/others portfolio banner.png" alt="Project 2"
           additionalImage1Src="./images/others showcase.png"
-          linkTo="" />
+          linkTo="" /> */}
           
         </div>
       </Section>
