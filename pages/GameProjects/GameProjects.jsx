@@ -36,7 +36,7 @@ export const GameProjects = () =>
             <h2 className="page-title">My Games</h2>
             <div className="game-list">
                 <div className="game">
-                    <img src="./src/assets/Games/Typie Wipy cover.png" alt="Game 1" />
+                    <img src="./images/Games/Typie Wipy cover.png" alt="Game 1" />
                     <h3>Typing Game</h3>
                     <p>A typing game I made with the Game Maker Studio Engine</p>
                     <button onClick={() => handlePlayButtonClick("Typie Wipy")} className="play-button">Play</button>
